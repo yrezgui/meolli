@@ -6,6 +6,12 @@
     "start": "react-native start"
   },
   "dependencies": {
+    "es6-promise": "^2.0.1",
+    "keymirror": "^0.1.1",
+    "object-assign": "^2.0.0",
     "react-native": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^2.0.2"
   }
 }
