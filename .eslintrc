@@ -17,7 +17,7 @@
     "quotes": [1, "single"],
     "no-mixed-requires": [1, true],
     "no-underscore-dangle": 0,
-    "strict": [2, "never"],
+    "strict": [2, "global"],
     "eol-last": 0,
     "no-trailing-spaces": 1,
     "no-debugger": 2,
