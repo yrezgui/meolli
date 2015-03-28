@@ -1,0 +1,33 @@
+{
+  // I want to use babel-eslint for parsing!
+  "parser": "babel-eslint",
+  "env": {
+    // I want to write for the browser
+    "browser": true,
+    // in CommonJS
+    "node": true,
+    // Jest tests
+    "jasmine": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  // To give you an idea how to override rule options:
+  "rules": {
+    "quotes": [1, "single"],
+    "no-mixed-requires": [1, true],
+    "no-underscore-dangle": 0,
+    "strict": [2, "never"],
+    "eol-last": 0,
+    "no-trailing-spaces": 1,
+    "no-debugger": 2,
+    "no-console": 1,
+    "no-alert": 1,
+    "func-names": 0,
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }]
+  }
+}
